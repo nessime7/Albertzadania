@@ -16,7 +16,7 @@ Kalkulator
 
 1. -> 5 opcji ale jedna nie działa
 2. -> 5 opcji
- */
+
 
 import java.util.Scanner;
 
@@ -31,7 +31,7 @@ class Main {
     }
 }
 
-class Calculator implements MainInterface {
+abstract class Calculator implements MainInterface {
     public class CalculatorMethod {
         public static void main(String[] args) {
 
@@ -112,3 +112,5 @@ class Calculator implements MainInterface {
         }
     }
 }
+
+ */
